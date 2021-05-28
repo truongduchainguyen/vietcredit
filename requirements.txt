@@ -1,0 +1,7 @@
+Django
+django-crispy-forms
+pyqrcode
+pyzbar
+pyzbar[scripts]
+pypng
+image
