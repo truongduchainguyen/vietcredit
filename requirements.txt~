@@ -1,8 +1,0 @@
-Django
-django-crispy-forms
-pyqrcode
-pyzbar
-pyzbar[scripts]
-pypng
-image
-python-3.9.5
