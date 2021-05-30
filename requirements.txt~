@@ -5,3 +5,4 @@ pyzbar
 pyzbar[scripts]
 pypng
 image
+python-3.8.5
