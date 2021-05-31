@@ -1,4 +1,4 @@
-Django
+django
 pyzbar
 pyzbar[scripts]
 opencv-python
