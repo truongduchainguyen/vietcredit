@@ -5,4 +5,3 @@ pyzbar
 pyzbar[scripts]
 pypng
 image
-numpy
