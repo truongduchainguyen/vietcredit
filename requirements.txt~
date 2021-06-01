@@ -1,6 +1,7 @@
-Django
+django
 pyzbar
 pyzbar[scripts]
 opencv-python
 pillow
 numpy
+gunicorn

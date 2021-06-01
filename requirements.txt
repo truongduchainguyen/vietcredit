@@ -4,3 +4,5 @@ pyzbar[scripts]
 opencv-python
 pillow
 numpy
+gunicorn
+django_heroku
