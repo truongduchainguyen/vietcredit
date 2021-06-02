@@ -1,6 +1,5 @@
 from pathlib import Path
 import os
-import django_heroku
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
@@ -16,7 +15,7 @@ SECRET_KEY = 't6uwp#5#zvu6x&uo@!fkevgfy$_mj#k6es%ldl84!vogm%i$b+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['agile-tor-82331.herokuapp.com']
+ALLOWED_HOSTS = ['agile-tor-82331.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

@@ -26,5 +26,5 @@ def upload_qr(request):
             form = QRForm()
     return render(request, 'App_QR/index.html', {'form': form})            
 
-def success(request): 
-    return HttpResponse('successfully uploaded')     
+def result(request): 
+    return render(request,'App_QR/result.html') 

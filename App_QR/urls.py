@@ -5,5 +5,5 @@ app_name = "App_QR"
 
 urlpatterns = [
     path('', views.upload_qr, name='upload'),
-    path('success/', views.success, name='success'),
+    # path('success/', views.success, name='success'),
 ]
