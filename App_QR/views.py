@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.shortcuts import HttpResponseRedirect
-from django.http import HttpResponse 
+from django.http import HttpResponse
 from django.urls import reverse
 from .forms import *
 import numpy as np
@@ -8,7 +8,7 @@ from PIL import Image
 from .utils import convert
 
 # Create your views here.
- 
+
 
 def upload_qr(request):
     form = QRForm()
@@ -24,7 +24,10 @@ def upload_qr(request):
             return render(request,'App_QR/result.html', context={'data':data, 'image':image})
         else:
             form = QRForm()
-    return render(request, 'App_QR/index.html', {'form': form})            
+    return render(request, 'App_QR/qr.html', {'form': form})
 
-def result(request): 
-    return render(request,'App_QR/result.html') 
+def result(request):
+    return render(request,'App_QR/result.html')
+
+def home(request):
+    return render(request, 'App_QR/home.html')
