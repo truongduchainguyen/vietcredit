@@ -7,7 +7,7 @@ def convert(qr_image):
     barcodes = decode(image)
     for barcode in barcodes:
         (x, y, w, h) = barcode.rect
-        cv2.rectangle(image,(x,y),(x+w,y+h),(0,0,255),2)
+        cv2.rectangle(image,(x,y),(x+w,y+h),(0,0,255),5)
         barcodeData = barcode.data.decode("utf-8")
         return barcodeData
 
