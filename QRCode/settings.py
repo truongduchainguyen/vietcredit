@@ -15,7 +15,7 @@ SECRET_KEY = 't6uwp#5#zvu6x&uo@!fkevgfy$_mj#k6es%ldl84!vogm%i$b+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vietcredit.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['vietcredit.herokuapp.com', '127.0.0.1', 'evening-citadel-84383.herokuapp.com']
 
 
 # Application definition
